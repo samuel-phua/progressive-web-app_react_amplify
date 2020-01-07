@@ -1,0 +1,30 @@
+{
+  "name": "progressive-web-app_react_amplify",
+  "version": "1.0.0",
+  "description": "Create lightning fast web apps with native power using React and the Amplify framework",
+  "main": "",
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://samuel-phua@github.com/samuel-phua/progressive-web-app_react_amplify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel-phua/progressive-web-app_react_amplify/issues"
+  },
+  "homepage": "https://github.com/samuel-phua/progressive-web-app_react_amplify#readme",
+  "dependencies": {
+    "@aws-amplify/api": "^2.1.2",
+    "@aws-amplify/pubsub": "^2.1.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
